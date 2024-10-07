@@ -35,6 +35,7 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         //tambahkan bagian ini
+        //pada kode anda
         view.findViewById<ImageView>(R.id.donut)
             .setOnClickListener(View.OnClickListener {
                 displayToast(getResources().getString(R.string.donut_order_message))
